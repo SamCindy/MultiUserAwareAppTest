@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hp.multiuserawareapptestclient">
+    package="com.hp.multiuserawareapptestclient"
+    android:sharedUserId="android.uid.multiuserawareapp">
 
     <permission android:name="com.hp.multiuserawareapptest.permission.TEST_SINGLETON_SERVICE"/>
     <uses-permission android:name="com.hp.multiuserawareapptest.permission.TEST_SINGLETON_SERVICE"/>
